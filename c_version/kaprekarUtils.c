@@ -25,7 +25,8 @@
 int isKaprekar(int n) {
 
   if(n < 1) {
-    return false;
+	  //false changed to 0
+    return 0;
   }
 
   int i;
